@@ -1,0 +1,103 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 250px;
+    background-color: #ddd6fe;
+}
+.command{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    gap: 4px;
+    justify-content: end;
+    padding-bottom: 100px;
+}
+.arena {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 2px;
+}
+
+.btn {
+    background-color: white;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-active{
+    background-color: #8b5cf6;
+    color: #8b5cf6;
+}
+
+.wall{
+    background-color: black;
+    color: black;
+}
+.red{
+    background-color: red;
+    color: red;
+}
+.green{
+    background-color: green;
+    color: green;
+}
+.blue{
+    background-color: blue;
+    color: blue;
+}
+.cat{
+    color: gray;
+    background-image: url("https://i.pinimg.com/originals/b0/4f/8b/b04f8b364fb33f4edfa1841c5468c728.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mouse{
+    color: burlywood;
+    background-image: url("https://www.freevector.com/uploads/vector/preview/7070/FreeVector-Jerry-Vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.commands{
+    background-color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    color: #8b5cf6;
+    border-color: #8b5cf6;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 50px;
+    width: 200px;
+}
+
+textarea{
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    border-color: white;
+    border-width: 2px;
+}
+
+p{
+    word-wrap: break-word;
+}
+
+#switcher2{
+    background-color: white;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: large;
+    font-weight: 500;
+    border-width: 1px;
+    height: 30px;
+    width: 200px;
+}
